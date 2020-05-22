@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!-- Essa linha acima indica que vou usar o html5 -->
+<html lang="pt-br">
+
+    <head>
+        <title>Minha Página</title>
+        <meta charset="utf-8">
+        <!-- Essa linha acima indica que vou usar a codificação com acento-->
+        <!-- Links são para importar e linkar o index com outros arquivos -->
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <!-- Se retirar link do bootstrap os botões ficam como botões comum de html -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <body>
+        <!-- Acessa https://getbootstrap.com/docs/4.1/components/buttons/ e copia html do botão -->
+        <button type="button" class="btn btn-primary">Texto botão</button>
+        <!-- btn é a classe -->
+
+        <!-- aba de navegação-->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <!-- expand grande e light claro -->
+            <a class="navbar-brand" href="#">
+                <img src="img/pexels-photo-261763.jpeg" width="300px">
+            </a>
+            <p></p>
+
+            <a class="navbar-brand" href="#">Minha página</a>
+            <!-- a cria link -->
+             <!-- repositório de imagens https://www.pexels.com/pt-br/ -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#parceiros">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#quemsomos">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#quemsomos">Action</a>
+                    <a class="dropdown-item" href="#parceiros">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+
+          <section id="quemsomos">
+              <div class="container quem-somos">
+                <!-- se for usar um fundo com cor o container não é tão legal porque
+                ele já cria margem -->
+                <p>Teste</p>
+              </div>
+              <div class="container-fluid quem-somos text-center margin">
+                <!-- se for usar um fundo com cor o container não é tão legal porque
+                ele já cria margem -->
+                <p>Teste</p>
+                <h3>Quem Somos</h3>
+                <!-- src é o pacote -->
+                <img src="img/pexels-photo-261763.jpeg" class="rounded-circle" width="400px">
+              </div>
+          </section id="parceiros">
+            <!-- atribuindo uma classe parceiros -->
+            <div class="container-fluid" text-center margin parceiros>
+                <h3>Parceiros</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                          <!-- coluna e md de médio entre os números(onde ta 4) das colunas tem que contar 12-->
+                          <img src="img/pexels-photo-261763.jpeg" width="100%">
+                        </div>
+                        <div class="col-md-4">
+                          <!-- coluna e md de médio e width 100% é para se enquadrar na coluna-->
+                          <img src="img/pexels-photo-261763.jpeg" width="100%">
+                        </div>
+                    </div> 
+                </div> 
+            </div>
+            <footer class="container-fluid text-center nomeclassefooter margin">Desenvolvido por mariane
+
+            </footer>
+
+    </body>
+
+
+    
+</html>

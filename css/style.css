@@ -1,0 +1,31 @@
+body{
+    font: 20px Arial;
+}
+
+.navbar{
+
+    background-color: blue ;
+}
+
+.quem-somos{
+    color: cornsilk;
+    /* só color é da letra*/
+    background-color: blueviolet;
+}
+
+     /* essa margem cria um espaço antes do conteiner ou div, cria acima
+    margin-top: 30px;*/
+     /* essa margem cria um espaço na mesma classe, dentro do container*/
+
+.margin{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.parceiros{
+    background-color: cyan;
+}
+
+.nomeclassefooter{
+    background-color: darkgray;
+}
